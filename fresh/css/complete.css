@@ -1,0 +1,189 @@
+.container .contre{
+	width: 1200px;
+	/*height: 1390px;*/
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.container .contre>.left{
+	width: 220px;
+	/*height: 1220px;*/
+	float: left;
+	margin-top: 10px;
+	padding: 0px 10px 10px 0px;
+}
+.container .contre>.left>.list{
+	width: 220px;
+	height: 195px;
+	border: 1px solid gainsboro;
+}
+.left>.list>.home{
+	width: 220px;
+	height: 45px;
+	background: rgb(95,173,1);
+}
+.left>.list>.home>span{
+	line-height: 45px;
+	margin-left: 10px;
+	color: #FFF;
+    font-size: 16px;
+}
+.left>.list>ul{
+	margin: 5px 10px;
+}
+.left>.list>ul>li{
+    width: 200px;
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px dashed gainsboro;
+    font-size: 14px;
+}
+.left>.list>ul>li:nth-of-type(3){
+	border-bottom: none;
+}
+.left>.list>ul>li>a{
+	text-decoration: none;
+	color: #000000;
+}
+.left>.list>ul>li>a:hover{
+	color: rgb(95,173,1);
+}
+
+.container .contre>.right{
+    width: 968px;
+    float: left;
+}
+.right>#containet{
+	width: 968px;
+    position: relative;
+    margin: auto;
+}
+.right>#containet>#pageMain{
+    position: relative;
+    width: 968px;
+    margin-top: 0;
+}
+.right>#containet>#pageMain>li{
+    width: 968px;
+}
+#pageMain>li>.one{
+	width: 968px;
+}
+#pageMain>li>.one>ul>li{
+	width: 226px;
+    height: 361px;
+    padding: 5px 0px;
+    float: left;
+    margin: 5px 5px 5px 5px
+}
+#pageMain>li>.one>ul>li>img{
+	width: 226px;
+	height: 226px;
+}
+#pageMain>li>.one>ul>li>.lis{
+	width: 226px;
+    height: 115px;
+    margin-top: 10px;
+}
+.one>ul>li>.lis>a{
+	font-size: 16px;
+    text-align: center;
+    width: 226px;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    color: #000;
+    height: 30px;
+    border-bottom: 1px dashed gainsboro;
+}
+.one>ul>li>.lis>p{
+	width: 225px;
+    height: 26px;
+    margin: 5px 0px 10px 0px;
+    text-align: center;
+    line-height: 26px;
+}
+.one>ul>li>.lis>p>font{
+	color: #4AB344;
+    font-size: 12px;
+}
+.one>ul>li>.lis>p>span{
+	color: #4AB344;
+    font-size: 20px;
+}
+.one>ul>li>.lis>span{
+    width: 190px;
+    height: 33px;
+    border-radius: 2px 2px 2px 2px;
+    display: block;
+    background: #4AB344;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 17px;
+    color: white;
+    font-size: 14px;
+}
+#pageBox{
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+    display: table;
+}
+ 
+#pageBox span {
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+}
+#pageNav {
+    display: inline-block;
+}
+ 
+#pageNav a {
+display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+ 
+#pageNav a.active, #pageNav a:hover {
+	color: #4AB344;
+}
+ #prev:hover {
+    cursor: pointer;
+}
+ #next:hover {
+    cursor: pointer;
+}
+.back{
+	width: 50px;
+	height: 50px;
+	background-image: url(../../响应式/img/03.png);
+	position: fixed;
+	right: 40px;
+	bottom:50px;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

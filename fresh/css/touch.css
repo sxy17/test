@@ -1,0 +1,181 @@
+.container .contre{
+	width: 1200px;
+	/*height: 1390px;*/
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.container .contre>.left{
+	width: 220px;
+	/*height: 1220px;*/
+	float: left;
+	margin-top: 10px;
+	padding: 0px 10px 10px 0px;
+}
+.container .contre>.left>.list{
+	width: 220px;
+	height: 195px;
+	border: 1px solid gainsboro;
+}
+.left>.list>.home{
+	width: 220px;
+	height: 45px;
+	background: rgb(95,173,1);
+}
+.left>.list>.home>span{
+	line-height: 45px;
+	margin-left: 10px;
+	color: #FFF;
+    font-size: 16px;
+}
+.left>.list>ul{
+	margin: 5px 10px;
+}
+.left>.list>ul>li{
+    width: 200px;
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px dashed gainsboro;
+    font-size: 14px;
+}
+.left>.list>ul>li:nth-of-type(3){
+	border-bottom: none;
+}
+.left>.list>ul>li>a{
+	text-decoration: none;
+	color: #000000;
+}
+.left>.list>ul>li>a:hover{
+	color: rgb(95,173,1);
+}
+
+.container .contre>.right{
+    width: 968px;
+    float: left;
+}
+.container .contre>.right>.lom{
+	width: 968px;
+	height: 443px;
+}
+.contre>.right>.lom>img{
+	width: 390px;
+    height: 312px;
+    margin-top: 50px;
+    display: inline-block;
+    float: left;
+}
+.contre>.right>.lom>span{
+    width: 454px;
+    float: left;
+    margin-left: 84px;
+}
+.contre>.right>.lom>.sp{
+    font-size: 18px;
+    margin-top: 123px;
+}
+.contre>.right>.lom>.spa{
+	font-size: 14px;
+    line-height: 3;
+}
+.contre>.right>p{
+	font-size: 15px;
+	color: #05A045;
+	margin: 45px;
+}
+.contre>.right>.site{
+	margin-left: 45px;
+}
+.contre>.right>.site>form>label{
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    
+}
+.contre>.right>.site>form>input{
+	width: 269px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #8f8f8f;
+    padding: 1px;
+    text-indent: 6px;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.contre>.right>.site>form>span{
+	color: red;
+}
+.contre>.right>.site>form>select{
+    width: 827px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #8f8f8f;
+    color: #888;
+    margin-top: 8px;
+}
+.right>.site>form>select>option{
+	
+}
+.right>.site>form>select>.op{
+	display: none;
+}
+.right>.site>form>.tex>textarea{
+    width: 829px;
+    height: 102px;
+    display: inline-block;
+}
+.right>.site>form>.sel{
+	margin-top: 17px;
+}
+.right>.site>form>.tex{
+	height: 102px;
+    margin-top: 8px;
+    position: relative;
+}
+.right>.site>form>.tex>div{
+	width: 10px;
+    height: 102px;
+    display: inline-block;
+    line-height: 102px;
+    position: absolute;
+    margin-left: 20px;
+    color: red;
+}
+.right>.site>form>p{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+.right>.site>form>.inps>div{
+	margin-right: 20px;
+	font-size: 12px;
+	display: inline-block;
+}
+.right>.site>form>.inps>div>input{
+	width: 13px;
+	height: 15px;
+}
+.right>.site>form>.jiao{
+	width: 227px;
+    height: 40px;
+    outline: white;
+    background: #85c300;
+    border: 0;
+    line-height: 40px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+.back{
+	width: 50px;
+	height: 50px;
+	background-image: url(../../响应式/img/03.png);
+	position: fixed;
+	right: 40px;
+	bottom:50px;
+	opacity: 1;
+}

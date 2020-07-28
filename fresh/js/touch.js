@@ -1,0 +1,10 @@
+$(window).scroll(function(){
+	if($(window).scrollTop()>100){
+		$(".back").slideDown(1000);
+	}else{
+		$(".back").slideUp(1000);
+	}
+})
+$(".back").click(function(){
+	$("html,body").animate({scrollTop:0},500)
+})
